@@ -2,10 +2,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-user = 'postgres'
-password = '123'
-host = 'localhost'
-database = 'hospital'
+user = ''
+password = ''
+host = ''
+database = ''
 
 DATABASE_URI = f"postgresql://{user}:{password}@{host}/{database}"
 
